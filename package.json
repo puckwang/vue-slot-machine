@@ -1,0 +1,28 @@
+{
+  "name": "@puckwang/slot-machine-vue-component",
+  "version": "0.0.1",
+  "description": "A Vue component of a slot machine, made with an HTML5 canvas, RWD.",
+  "main": "./dist/index.cjs.js",
+  "scripts": {
+    "dev": "vue serve ./src/SlotMachine.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "vue",
+    "component",
+    "slotmachine"
+  ],
+  "author": "Puck Wang",
+  "license": "MIT",
+  "devDependencies": {
+    "bili": "^3.4.2",
+    "rollup-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "konva": "^3.2.5"
+  }
+}
