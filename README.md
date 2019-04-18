@@ -95,7 +95,7 @@ export default {
 ##### `currentIndex`
 - Type: Integer
 - Description: Specify the index the result.
-- Default: null
+- Default: -1
 
 ##### `width`
 - Type: Date

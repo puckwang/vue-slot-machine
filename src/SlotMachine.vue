@@ -32,7 +32,7 @@
             },
             currentIndex: {
                 type: Number,
-                default: null
+                default: -1
             },
             width: {
                 type: Number,
@@ -161,7 +161,7 @@
                 this.acc = 100;
                 this.stopping = false;
 
-                this.currentItem = this.currentIndex === void 0 ?
+                this.currentItem = this.currentIndex === -1 ?
                     this.items[this.random(0, this.items.length - 1)] : this.items[this.currentIndex];
                 this.animation.start();
             },
