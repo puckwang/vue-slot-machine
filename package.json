@@ -32,9 +32,11 @@
   "devDependencies": {
     "bili": "^4.7.3",
     "rollup-plugin-vue": "^5.0.0",
+    "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "konva": "^3.2.5"
+    "konva": "^3.2.5",
+    "vue-runtime-helpers": "^1.0.0"
   }
 }

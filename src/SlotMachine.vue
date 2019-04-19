@@ -233,7 +233,5 @@
 </script>
 
 <style scoped lang="scss">
-    div {
-        background: #000;
-    }
+
 </style>
