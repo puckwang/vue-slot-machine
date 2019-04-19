@@ -6,7 +6,7 @@
 
 <script>
     /* eslint-disable */
-    require('konva');
+    import 'konva';
 
     export default {
         props: {
@@ -233,4 +233,7 @@
 </script>
 
 <style scoped lang="scss">
+    div {
+        background: #000;
+    }
 </style>
