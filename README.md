@@ -14,6 +14,8 @@ A Vue component of a slot machine, made with an HTML5 canvas, RWD.
 - [Contributing](#contributing)
 
 ## Installation
+
+### In NPM
 1. Use `npm` or `yarn` download `@puckwang/vue-slot-machine`.
 ```sh
 npm install @puckwang/vue-slot-machine
@@ -37,6 +39,27 @@ import {SlotMachine} from '@puckwang/vue-slot-machine';
 export default {
     components: { "slot-machine": SlotMachine }
 }
+```
+
+### In Browser
+```html
+<div id="app">
+    <div>
+        <slot-machine></slot-machine>
+    </div>
+</div>
+
+<script src="https://unpkg.com/@puckwang/vue-slot-machine@latest"></script>
+
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  },
+  components: { "slot-machine": VueSlotMachine.SlotMachine }
+})
+</script>
 ```
 
 ## Usage
