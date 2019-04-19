@@ -19,7 +19,7 @@
   "jsdelivr": "./dist/index.umd.js",
   "scripts": {
     "dev": "vue serve ./src/SlotMachine.vue",
-    "build": "bili"
+    "build": "bili --name index --moduleName VueSlotMachine --plugin vue --vue.css --format cjs,umd,umd-min"
   },
   "files": [
     "dist/*"
@@ -30,14 +30,12 @@
     "slotmachine"
   ],
   "devDependencies": {
-    "bili": "^4.7.3",
+    "bili": "^3.4.2",
     "rollup-plugin-vue": "^5.0.0",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "konva": "^3.2.5",
-    "style-inject": "^0.3.0",
-    "vue-runtime-helpers": "^1.0.0"
+    "konva": "^3.2.5"
   }
 }
