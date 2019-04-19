@@ -1,8 +1,8 @@
 # SlotMachine Vue Component
 
-[![npm](https://img.shields.io/npm/v/@puckwang/slot-machine-vue-component.svg?style=flat)](https://www.npmjs.com/package/@puckwang/slot-machine-vue-component)
-[![npm](https://img.shields.io/npm/l/@puckwang/slot-machine-vue-component.svg?style=flat)](https://github.com/puckwang/slot-machine-vue-component/blob/master/LICENSE)
-[![npm](https://img.shields.io/npm/dt/@puckwang/slot-machine-vue-component.svg?style=flat)](https://www.npmjs.com/package/@puckwang/slot-machine-vue-component)
+[![npm](https://img.shields.io/npm/v/@puckwang/vue-slot-machine.svg?style=flat)](https://www.npmjs.com/package/@puckwang/vue-slot-machine)
+[![npm](https://img.shields.io/npm/l/@puckwang/vue-slot-machine.svg?style=flat)](https://github.com/puckwang/vue-slot-machine/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/dt/@puckwang/vue-slot-machine.svg?style=flat)](https://www.npmjs.com/package/@puckwang/vue-slot-machine)
 
 A Vue component of a slot machine, made with an HTML5 canvas, RWD.
 
@@ -14,25 +14,25 @@ A Vue component of a slot machine, made with an HTML5 canvas, RWD.
 - [Contributing](#contributing)
 
 ## Installation
-1. Use `npm` or `yarn` download `@puckwang/slot-machine-vue-component`.
+1. Use `npm` or `yarn` download `@puckwang/vue-slot-machine`.
 ```sh
-npm install @puckwang/slot-machine-vue-component
+npm install @puckwang/vue-slot-machine
 
 // or
 
-yarn add @puckwang/slot-machine-vue-component
+yarn add @puckwang/vue-slot-machine
 ```
 2. Registered component.
 Then register the plugin to globally install all components:
 ```js
-import SlotMachine from '@puckwang/slot-machine-vue-component';
+import SlotMachine from '@puckwang/vue-slot-machine';
 
 Vue.use(SlotMachine);
 ```
 
 Or, import components individually for local registration:
 ```js
-import {SlotMachine} from '@puckwang/slot-machine-vue-component';
+import {SlotMachine} from '@puckwang/vue-slot-machine';
 
 export default {
     components: { "slot-machine": SlotMachine }
@@ -125,8 +125,8 @@ export default {
 
 ## Support
 
-Please [open an issue](https://github.com/puckwang/slot-machine-vue-component/issues/new) for support.
+Please [open an issue](https://github.com/puckwang/vue-slot-machine/issues/new) for support.
 
 ## Contributing
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/puckwang/slot-machine-vue-component/compare).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/puckwang/vue-slot-machine/compare).

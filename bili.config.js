@@ -2,7 +2,7 @@ module.exports = {
   input: 'src/index.js',
   output: {
     format: 'cjs,umd,esm',
-    moduleName: 'SlotMachine',
+    moduleName: 'VueSlotMachine',
     extractCSS: false,
     sourceMap: true,
   },
