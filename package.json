@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "konva": "^3.2.5",
+    "style-inject": "^0.3.0",
     "vue-runtime-helpers": "^1.0.0"
   }
 }
