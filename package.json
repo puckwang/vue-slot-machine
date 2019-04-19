@@ -5,7 +5,7 @@
   "main": "./dist/index.cjs.js",
   "scripts": {
     "dev": "vue serve ./src/SlotMachine.vue",
-    "build": "bili --name index --plugin vue --vue.css false"
+    "build": "bili --name index --plugin vue --vue.css --format cjs,umd,umd-min,cjs-min"
   },
   "files": [
     "dist/*"
