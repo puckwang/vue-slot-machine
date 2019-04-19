@@ -1,6 +1,6 @@
 {
   "name": "@puckwang/vue-slot-machine",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Vue component of a slot machine, made with an HTML5 canvas, RWD.",
   "private": false,
   "author": "Puck Wang",
