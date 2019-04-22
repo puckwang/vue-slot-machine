@@ -13,16 +13,11 @@
             list: {
                 type: Array,
                 default: () => [
-                    {text: '0', color: '#668CFF'},
-                    {text: '1', color: '#FF6666'},
-                    {text: '2', color: '#B366FF'},
-                    {text: '3', color: '#668CFF'},
-                    {text: '4', color: '#FF6666'},
-                    {text: '5', color: '#B366FF'},
-                    {text: '6', color: '#668CFF'},
-                    {text: '7', color: '#FF6666'},
-                    {text: '8', color: '#B366FF'},
-                    {text: '9', color: '#668CFF'},
+                  {text: "Apple", color: "#FF6666"},
+                  {text: "Watermelon", color: "#66FF8C"},
+                  {text: "Banana", color: "#FFD966"},
+                  {text: "Grape", color: "#B366FF"},
+                  {text: "Peach", color: "#FF66D9"},
                 ],
             },
             trigger: {
@@ -35,11 +30,11 @@
             },
             width: {
                 type: Number,
-                default: 300
+                default: 500
             },
             height: {
                 type: Number,
-                default: 300
+                default: 200
             },
             responsive: {
                 type: Boolean,
@@ -137,7 +132,9 @@
                 });
                 this.items = [];
 
-                this.list.forEach((e, index) => {
+                let list = this.list.length > 3 ? [...this.list] : [...this.list, ...this.list];
+
+                list.forEach((e, index) => {
                     let text = new Konva.Text(Object.assign(this.itemConfig, {
                         text: e.text,
                         fill: e.color || "#000",
