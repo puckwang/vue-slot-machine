@@ -1,0 +1,1 @@
+yarn build && npm publish
