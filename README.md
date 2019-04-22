@@ -1,5 +1,6 @@
-# SlotMachine Vue Component
+# Vue-SlotMachine
 
+![Banner](https://github.com/puckwang/vue-slot-machine/blob/master/screenshots/banner.png)
 [![npm](https://img.shields.io/npm/v/@puckwang/vue-slot-machine.svg?style=flat)](https://www.npmjs.com/package/@puckwang/vue-slot-machine)
 [![npm](https://img.shields.io/npm/l/@puckwang/vue-slot-machine.svg?style=flat)](https://github.com/puckwang/vue-slot-machine/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/dt/@puckwang/vue-slot-machine.svg?style=flat)](https://www.npmjs.com/package/@puckwang/vue-slot-machine)
@@ -66,7 +67,7 @@ var app = new Vue({
 
 [Demo](https://codepen.io/puckwang/pen/OGvrdM)
 
-```vue
+```html
 <template>
     <slot-machine
         :list="list"
