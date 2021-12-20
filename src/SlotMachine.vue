@@ -13,11 +13,11 @@
             list: {
                 type: Array,
                 default: () => [
-                  {text: "Apple", color: "#FF6666"},
-                  {text: "Watermelon", color: "#66FF8C"},
-                  {text: "Banana", color: "#FFD966"},
-                  {text: "Grape", color: "#B366FF"},
-                  {text: "Peach", color: "#FF66D9"},
+                  {text: "Apple", color: "#FF6666", fontSize: 75, align: 'center'},
+                  {text: "Watermelon", color: "#66FF8C", fontSize: 75, align: 'center'},
+                  {text: "Banana", color: "#FFD966", fontSize: 60, align: 'center'},
+                  {text: "Grape", color: "#B366FF", fontSize: 75, align: 'center'},
+                  {text: "Peach", color: "#FF66D9", fontSize: 75, align: 'center'},
                 ],
             },
             trigger: {
@@ -137,6 +137,11 @@
                 list.forEach((e, index) => {
                     let text = new Konva.Text(Object.assign(this.itemConfig, {
                         text: e.text,
+                        align: e.align || this.itemConfig.align,
+                        fontFamily: e.fontFamily,
+                        verticalAlign: e.verticalAlign,
+                        fontStyle: e.fontStyle,
+                        fontSize: e.fontSize || this.itemConfig.fontSize,
                         fill: e.color || "#000",
                         y: index * this.itemConfig.height + this.itemConfig.startY,
                         data: e,

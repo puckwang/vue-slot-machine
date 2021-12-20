@@ -144,8 +144,31 @@ export default {
 
 ##### `color`
 - Type: ColorHex
-- Description: Color of the gift.
+- Description: Color for gift text.
 - Default: #000 (Black)
+
+##### `fontFamily`
+- Type: String
+- Description: Font family for gift text.
+- Default: Arial
+
+##### `fontStyle`
+- Type: String
+- Description: Font style for gift text. can be `normal`, `bold`, `italic` or even `italic bold`.
+- Default: normal
+
+##### `align`
+- Type: String
+- Description: Text align for gift text. can be `left`, `center`, or `right`.
+- Default: `center`
+
+##### `verticalAlign`
+- Type: String
+- Description: Text vertical align for gift text. can be `top`, `middle` or `bottom`.
+- Default: `middle`
+
+> Changing the `fontFamily`, `fontStyle` and `verticalAlign` will cause the layout to break!
+> It is recommended to use the default value.
 
 ## Support
 
