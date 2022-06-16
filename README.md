@@ -1,3 +1,5 @@
+> ⚠️ This repo is no longer maintained.
+
 # Vue-SlotMachine
 
 ![Banner](https://github.com/puckwang/vue-slot-machine/blob/master/screenshots/banner.png?raw=true)
